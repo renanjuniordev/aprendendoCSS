@@ -1,11 +1,22 @@
 body {
-    background-color: lightblue;
+    background-color: rgba(230, 230, 250, 0.6);
 }
 
 h1 {
-    color: white;    
+    color: white;
+    background-color: lightgray;
+    border: 2px solid tomato;
 }
 
+h2 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+/* CLASS */
 .center {
     text-align: center;
 }
@@ -14,6 +25,7 @@ h1 {
     color: green;
 }
 
+/* ID */
 #para {
     font-family: verdana;
     font-size: 20px;
