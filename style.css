@@ -1,11 +1,14 @@
 body {
-    background-color: rgba(230, 230, 250, 0.6);
+    
+    /*background-image: url("fundosite.jpg");
+    background-repeat: no-repeat;*/
 }
 
 h1 {
     color: white;
-    background-color: lightgray;
-    border: 2px solid tomato;
+    background-color: green;
+    opacity: 1;
+    border: 2px dashed tomato;
 }
 
 h2 {
@@ -23,6 +26,15 @@ h2 {
 
 .fonte-verde {
     color: green;
+    border-style: solid;
+    border-width: 2px 2px 50px 2px;
+    border-color: red;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /*padding: 10px;*/
+    /*width: 50px;
+    height: 50px;*/
 }
 
 /* ID */
